@@ -1,0 +1,4 @@
+:root {
+  /* evalutes to 64.5% of the browser font size */
+  --default-font-size: 64.5%;
+}

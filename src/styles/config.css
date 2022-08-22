@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:not(:focus-within) {
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: var(--default-font-size);
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.App > span ~ * {
+  color: red;
+}
