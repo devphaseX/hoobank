@@ -46,6 +46,7 @@ export const features = [
     id: 'feature-2',
     icon: shield,
     title: '100% Secured',
+    standout: true,
     content:
       'We take proactive steps make sure your information and transactions are secure.',
   },
@@ -70,11 +71,19 @@ export const feedback = [
   {
     id: 'feedback-2',
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: 'Steve Mark',
+      'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
+    name: 'Herman Jensen',
     title: 'Founder & Leader',
-    img: people02,
+    img: people01,
   },
+  // {
+  //   id: 'feedback-2',
+  //   content:
+  //     "Money makes your life easier. If you're lucky to have it, you're lucky.",
+  //   name: 'Steve Mark',
+  //   title: 'Founder & Leader',
+  //   img: people02,
+  // },
   {
     id: 'feedback-3',
     content:
@@ -209,4 +218,11 @@ export const clients = [
     id: 'client-4',
     logo: dropbox,
   },
+];
+
+export const getCurrentDiscountMessage = () => [
+  { highlight: true, content: '20%' },
+  { highlight: false, content: 'discount for' },
+  { highlight: true, content: '1 month' },
+  { highlight: false, content: '1 account' },
 ];

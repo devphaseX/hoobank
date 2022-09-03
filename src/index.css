@@ -1,2 +1,5 @@
+@import url(./styles/fonts/index.css);
 @import url(./styles/variable.css);
+@import url(./styles/util.css);
 @import url(./styles/config.css);
+@import url(./App.css);

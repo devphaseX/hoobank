@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+button:focus,
 *:not(:focus-within) {
   border: none;
   outline: none;
@@ -21,11 +22,33 @@ ul {
 }
 
 a,
-button {
+button,
+span {
   text-decoration: none;
   display: inline-block;
+  color: inherit;
 }
 
 .App > span ~ * {
   color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--white);
+  font-family: var(--header-font);
+  line-height: 1.2;
+}
+
+h3,
+h2 {
+  font-size: 3.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+  color: var(--text-grey-1);
 }

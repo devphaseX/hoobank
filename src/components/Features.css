@@ -1,0 +1,41 @@
+.features {
+  padding-bottom: 170px;
+  background: var(--bg-colour);
+}
+
+.features-wrapper > * {
+  justify-content: space-between;
+}
+
+.features-wrapper:not(:first-child) {
+  margin-top: 195px;
+}
+
+.features-wrapper > * > *:first-child {
+  width: 622px;
+}
+
+.features-wrapper > * > *:last-child {
+  width: 470px;
+}
+
+.invoiceBilling,
+.bettercard {
+  display: flex;
+}
+
+.invoiceBilling {
+  align-items: center;
+}
+
+.bettercard {
+  align-items: flex-start;
+}
+
+.featureImageBoard {
+  width: 40%;
+}
+
+.featureImageBoard img {
+  width: 100%;
+}

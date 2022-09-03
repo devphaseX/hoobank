@@ -1,0 +1,9 @@
+.buttonPrimary {
+  background-image: var(--radial-gradient-blue);
+  color: black;
+  font-size: 1.8rem;
+  width: 170px;
+  height: 64px;
+  display: flex;
+  border-radius: 10px;
+}

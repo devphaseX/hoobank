@@ -1,0 +1,29 @@
+.getStarted-section {
+  background: var(--bg-colour);
+  padding-top: 128px;
+  padding-bottom: 64px;
+}
+
+.getStarted {
+  width: 80%;
+  margin: 0 auto;
+  background: var(--gradient-bluish-grey);
+  padding: 64px 72px;
+  border-radius: 20px;
+}
+
+.getStarted-content {
+  width: 80%;
+}
+
+.getStarted-content h2 {
+  width: 90%;
+  margin-bottom: 24px;
+}
+
+.getStarted-content p {
+  width: 55%;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  font-family: Poppins;
+}

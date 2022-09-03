@@ -1,0 +1,9 @@
+html {
+  font-family: var(--body-font);
+}
+
+.layout-wrapper {
+  max-width: var(--layout-width);
+  margin-inline: auto;
+  padding-inline: var(--layout-padding);
+}

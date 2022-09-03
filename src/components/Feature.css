@@ -1,0 +1,73 @@
+.business-goal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.primary-goal {
+  max-width: 627px;
+}
+
+.primary-goal-headline {
+  margin-bottom: 24px;
+}
+
+.primary-goal-content {
+  font-size: 1.8rem;
+  color: var(--text-grey-1);
+  margin-bottom: 48px;
+}
+
+.primary-goal-headline {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+}
+
+.goal {
+  display: flex;
+  border-radius: 20px;
+  padding: 16px 20px;
+  width: 470px;
+}
+
+.goal--active {
+  background: var(--gradient-bluish-grey);
+}
+
+.goal-info {
+  margin-left: 32px;
+}
+
+.goal-icon {
+  display: inline-flex;
+  background: transparent;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.goal-icon::before {
+  content: '';
+  border-radius: 50%;
+  background: var(--greenish-bg);
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+
+.goal-icon img {
+  height: 32px;
+}
+
+.goal-title {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.goal-content {
+  font-size: 1.6rem;
+  color: var(--text-grey-1);
+}

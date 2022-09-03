@@ -1,0 +1,35 @@
+:is(.navigation .layout-wrapper, .header-navigation) {
+  display: flex;
+  font-family: var(--header-font);
+  color: var(--text-grey-1);
+}
+
+.navigation {
+  background-color: var(--bg-colour);
+}
+
+.navigation .layout-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.brand-logo-container {
+  height: 28px;
+}
+
+.brand-logo-container img {
+  height: 100%;
+}
+
+.navigation-item {
+  font-size: 1.6rem;
+}
+
+.navigation-item--active {
+  color: var(--text-light-1);
+}
+
+.header-navigation .navigation-item:not(:last-child) {
+  margin-right: 56px;
+}

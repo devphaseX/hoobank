@@ -1,0 +1,55 @@
+.get-started-button {
+  width: 146px;
+  height: 146px;
+  position: relative;
+  flex-direction: column;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  z-index: 1;
+}
+
+.get-started-button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  background: red;
+  transform: scale(1.2);
+  z-index: -2;
+  display: block;
+}
+
+.get-started-button::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.started-arrow-icon {
+  width: 28px;
+}
+
+.started-arrow-icon > img {
+  width: 100%;
+}
+
+.content-first,
+.content-second {
+  background-image: var(--radial-gradient-blue);
+}
+
+.content-first {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.review-section {
+  background: var(--bg-colour);
+}
+
+.review-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-section-header > * {
+  flex-basis: 40%;
+}

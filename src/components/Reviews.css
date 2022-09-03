@@ -1,0 +1,64 @@
+.reviews {
+  padding-block: 68px;
+}
+
+.user-review {
+  max-width: 348px;
+  padding: 48px;
+  height: 378px;
+  background: var(--gradient-bluish-grey);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.user-review-info {
+  padding-top: 68px;
+  position: relative;
+}
+
+.user-review > div:first-of-type {
+  font-size: 2.1rem;
+  color: var(--text-light-1);
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.user-summary-profile {
+  margin-top: auto;
+}
+
+.user-image-profile {
+  width: 56px;
+  margin-top: auto;
+  margin-right: 18px;
+}
+
+.user-image-profile img {
+  width: 100%;
+  display: block;
+}
+
+.user-review-info::before {
+  content: "''";
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  font-size: 8.8rem;
+  line-height: 1;
+  background: var(--linear-gradient-blue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.user-profile-info > h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.user-profile-info > div:last-child {
+  margin-top: 4px;
+  font-size: 1.3rem;
+  color: var(--text-grey-1);
+}

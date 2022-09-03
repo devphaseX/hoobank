@@ -1,4 +1,53 @@
-:root {
+:root,
+*::before,
+*::after {
   /* evalutes to 64.5% of the browser font size */
   --default-font-size: 64.5%;
+
+  --white: #ffffff;
+  --grey-1: #ffffffb3;
+  --grey-2: #f1f1f1b3;
+  --greenish-bg: #09977c1a;
+  --black-1: #0f1015;
+
+  --gradient-black: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  --gradient-bluish-grey: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+  --radial-gradient-blue: linear-gradient(
+    157.81deg,
+    rgb(222, 249, 250) -43.27%,
+    rgb(189, 243, 245),
+    rgb(157, 237, 240) 12.19%,
+    rgb(125, 231, 235) 29.82%,
+    rgb(92, 225, 230) 51.94%,
+    rgb(51, 187, 207) 90.29%
+  );
+
+  --linear-gradient-blue: linear-gradient(
+    157.81deg,
+    rgb(222, 249, 250) -43.27%,
+    rgb(190, 243, 245) -21.24%,
+    rgb(157, 237, 240) 12.19%,
+    rgb(125, 231, 235) 29.82%,
+    rgb(92, 225, 230) 51.94%,
+    rgb(51, 187, 207) 90.29%
+  );
+
+  --primary-colour: #00040f;
+  --heroTag-bg: var(--gradient-black);
+
+  --text-light-1: var(--white);
+  --text-grey-1: var(--grey-1);
+
+  --bg-colour: var(--primary-colour);
+
+  --layout-width: 1200px;
+  --layout-padding: 15px;
+
+  /* fonts */
+  --header-font: Poppins;
+  --body-font: Abel;
 }

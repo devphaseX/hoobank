@@ -1,0 +1,8 @@
+.social-media-accounts {
+  display: flex;
+  align-items: center;
+}
+
+.account:not(:last-child) {
+  margin-right: 43px;
+}
